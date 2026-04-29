@@ -81,7 +81,7 @@ docker compose up --build
 docker compose down
 
 # Reset completo (borra todos los datos)
-docker compose down -v
+docker compose down -v 
 ```
 
 ---
