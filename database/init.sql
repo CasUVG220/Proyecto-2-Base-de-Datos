@@ -149,7 +149,7 @@ CREATE INDEX idx_clientes_email
     ON clientes(email);
 
 
--- 3. VISTAS (VIEW)
+-- 3. VISTA
 -- Usadas por el backend para alimentar la UI
 
 
