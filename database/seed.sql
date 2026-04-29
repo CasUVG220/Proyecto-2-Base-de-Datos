@@ -143,13 +143,12 @@ INSERT INTO productos (categoria_id, proveedor_id, nombre, descripcion, precio_c
 (10, 15, 'Nivel de burbuja 60cm',         'Nivel de aluminio 3 burbujas',             42.00,    95.00,  45, 10);
 
 -- 6. USUARIOS (5 registros — contraseña: admin123 para todos)
---  Hash bcrypt generado offline para 'admin123'
 INSERT INTO usuarios (empleado_id, email, password_hash, rol) VALUES
-(1, 'admin@store.com',       '$2b$10$Kc1rOzeePz1ULOnP5TTMae0r1UTpZyi69W8tI8k41JM4kmyyTcRaK', 'admin'),
-(2, 'supervisor@store.com',  '$2b$10$Kc1rOzeePz1ULOnP5TTMae0r1UTpZyi69W8tI8k41JM4kmyyTcRaK', 'supervisor'),
-(3, 'andrea@store.com',      '$2b$10$Kc1rOzeePz1ULOnP5TTMae0r1UTpZyi69W8tI8k41JM4kmyyTcRaK', 'vendedor'),
-(4, 'luis@store.com',        '$2b$10$Kc1rOzeePz1ULOnP5TTMae0r1UTpZyi69W8tI8k41JM4kmyyTcRaK', 'vendedor'),
-(9, 'sofia@store.com',       '$2b$10$Kc1rOzeePz1ULOnP5TTMae0r1UTpZyi69W8tI8k41JM4kmyyTcRaK', 'supervisor');
+(1, 'admin@store.com',      '$2b$10$2XNjdMOE0OIORyzZpGjPNO77KWas6CSvqP105dXAu3hKuZabx73Du', 'admin'),
+(2, 'supervisor@store.com', '$2b$10$2XNjdMOE0OIORyzZpGjPNO77KWas6CSvqP105dXAu3hKuZabx73Du', 'supervisor'),
+(3, 'andrea@store.com',     '$2b$10$2XNjdMOE0OIORyzZpGjPNO77KWas6CSvqP105dXAu3hKuZabx73Du', 'vendedor'),
+(4, 'luis@store.com',       '$2b$10$2XNjdMOE0OIORyzZpGjPNO77KWas6CSvqP105dXAu3hKuZabx73Du', 'vendedor'),
+(9, 'sofia@store.com',      '$2b$10$2XNjdMOE0OIORyzZpGjPNO77KWas6CSvqP105dXAu3hKuZabx73Du', 'supervisor');
 
 
 -- 7. VENTAS Y DETALLE (35 ventas con múltiples líneas)

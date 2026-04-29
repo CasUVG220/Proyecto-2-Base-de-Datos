@@ -53,8 +53,8 @@ docker compose up --build
 
 | Servicio | URL |
 |---|---|
-| Frontend | http://localhost:5173 |
-| Backend API | http://localhost:3000 |
+| Frontend | http://localhost:5174 |
+| Backend API | http://localhost:3001 |
 | PostgreSQL | localhost:5432 |
 
 ### 5. Credenciales

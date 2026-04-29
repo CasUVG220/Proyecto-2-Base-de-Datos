@@ -5,8 +5,6 @@
 -- Usuario: proy2 | Base de datos: storemanager
 
 
--- 0. Extensiones
-
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 
